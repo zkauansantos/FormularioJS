@@ -1,0 +1,57 @@
+@media (max-width:900px){
+  .container{
+    flex-direction: column;
+  }
+  .questions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .questions .title{
+    font-size: 35px;
+  }
+
+  .questions .paragrafo{
+    font-size: 20px;
+  }
+
+  .fill{
+    height: 420px;
+    width: 350px;
+    
+  }
+
+  .fill .inputs {
+    height: 30px;
+  }
+
+  .obrigatorio{
+    width: 120px;
+    font-size: 12px;
+    margin-right: 200px;
+  }
+
+  .btn{
+    font-size: 14px;
+  }
+  
+  .mensagem-erro{
+    margin-right: 200px;
+  }
+}
+
+@media(max-width:500px){
+  .container{
+    text-align: center;
+  }
+  
+  .questions .title{
+    font-size: 25px;
+  }
+
+  .questions .paragrafo{
+    font-size: 15px;
+    max-width: 300px;
+  }
+}
